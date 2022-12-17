@@ -22,7 +22,7 @@ console.log('--- 2. Length of an array ---');
 console.log('Number of animals:', animalArray.length);
 
 // 2.a. TODO: Log to the console the number of foods in your array
-console.log('The length of favoriteFoods is ' , favoriteFoods.length);
+console.log('The Number of favoriteFoods is ' , favoriteFoods.length);
 
 // 3. Accessing array items
 console.log('--- 3. Accessing items in an array ---');
@@ -71,7 +71,7 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
 favoriteFoods.unshift('French Fries');
-console.log('My favorite foods are now:', favoriteFoods);
+console.log(`Added favorite food to beginning: ${favoriteFoods}`);
 
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
